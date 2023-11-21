@@ -31,14 +31,8 @@ package, which the `npm start` command calls automatically.)
 
 After that, it will be live on your computer and accessible from your computer at http://localhost:8080/ - accessing it from another computer is beyond the scope of this guide, but it is possible.
 
-## Running the website on ~~Heroku~~/Bluemix/Azure/AWS/etc
-
-This project should be runnable without modification on many cloud providers. Clone/download the code and deploy it, or just click one of the buttons above. (I used to use heroku, but they have since updated changed their policies to not allow it.)
-
 # About the project
 
 The the core of the nodeunblocker.com has been extracted into a [standalone library](https://github.com/nfriedly/node-unblocker) to make it more flexible, but everything you need to run the website is right here.
 
 This project is released under the terms of the [GNU Affero General Public License version 3](https://www.gnu.org/licenses/agpl-3.0.html).
-
-All source code is copyright [Nathan Friedly](http://nfriedly.com/).
